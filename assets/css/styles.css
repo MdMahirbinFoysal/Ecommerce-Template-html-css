@@ -23,6 +23,7 @@ img{
 }
 body{
   color:var(--text-color);
+  background: gray;
 }
 .container{
   max-width: 1068px;
@@ -71,6 +72,7 @@ header{
 }
 .cart.active{
   right:0;
+  transition: .6s;
 
 }
 
@@ -80,12 +82,12 @@ header{
   align-items: center;
   gap:1rem;
   margin-top: 1rem;
-
 }
+
 .cart-img{
-  width:100px;
-  height: 100px;
-  object-fit: contain;
+  max-width:100X;
+  max-height: 100px;
+  object-fit:contain;
   padding:10px;
 
 }
@@ -191,6 +193,7 @@ header{
   height: auto;
   margin-bottom: 0.5rem;
   align-items: center;
+  border-radius: 10px;
 
 }
 .product-title{
